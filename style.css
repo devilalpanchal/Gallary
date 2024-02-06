@@ -63,3 +63,20 @@ body{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (mix-width :375px) {
+    
+    .box span{
+        width: 50%;
+        height: 50%;
+        transform-origin: center;
+    }
+
+.copy{
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 800px;
+    color: rgb(255, 255, 255);
+}
+    
+}
