@@ -14,7 +14,6 @@ body{
 }
 .box{
     position: relative;
-    
     width: 200px;
     height: 300px;
     transform-style: preserve-3d;
@@ -67,9 +66,8 @@ body{
 @media screen and (mix-width :375px) {
     
     .box span{
-        width: 50%;
-        height: 50%;
-        transform-origin: center;
+        width: 40%;
+        height: 40%;
     }
 
 .copy{
@@ -78,5 +76,6 @@ body{
     margin-top: 800px;
     color: rgb(255, 255, 255);
 }
+
     
 }
